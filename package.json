@@ -45,7 +45,7 @@
     "@types/bootstrap": "5.1.13",
     "@types/jest": "27.5.0",
     "@types/sinon": "10.0.13",
-    "@typescript-eslint/parser": "5.30.7",
+    "@typescript-eslint/parser": "5.31.0",
     "@vitejs/plugin-vue": "3.0.1",
     "@vue/eslint-config-typescript": "10.0.0",
     "@vue/test-utils": "2.0.2",
