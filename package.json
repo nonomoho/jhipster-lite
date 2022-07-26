@@ -34,7 +34,7 @@
     "bootstrap": "5.2.0",
     "bootstrap-icons": "1.9.1",
     "mitt": "3.0.0",
-    "pinia": "2.0.16",
+    "pinia": "2.0.17",
     "pinia-plugin-persist": "1.0.0",
     "vue": "3.2.37",
     "vue-router": "4.1.2"
