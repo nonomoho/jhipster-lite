@@ -1,17 +1,7 @@
-import sinon, { SinonStub } from 'sinon';
-import { Emitter } from 'mitt';
-import { MittAlertBus } from '@/common/secondary/alert/MittAlertBus';
 import { AlertType } from '@/common/secondary/alert/AlertType';
-import { describe, it, expect } from 'vitest';
-
-interface EmitterStub extends Emitter<any> {
-  emit: SinonStub;
-}
-
-const stubEmitter = (): EmitterStub =>
-  ({
-    emit: sinon.stub(),
-  } as EmitterStub);
+import { MittAlertBus } from '@/common/secondary/alert/MittAlertBus';
+import { describe, expect, it } from 'vitest';
+import { stubEmitter } from '../bus/Emitter.fixture';
 
 describe('MittAlertBus', () => {
   it('should emit success', () => {

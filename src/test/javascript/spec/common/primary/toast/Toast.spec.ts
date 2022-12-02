@@ -3,7 +3,7 @@ import { ToastVue } from '@/common/primary/toast';
 import sinon, { SinonStub } from 'sinon';
 import { ToastType } from '@/common/primary/toast/ToastType';
 import { AlertListener } from '@/common/domain/alert/AlertListener';
-import { AlertListenerFixture, stubAlertListener } from '../../domain/AlertListener.fixure';
+import { AlertListenerFixture, stubAlertListener } from '../../domain/alert/AlertListener.fixure';
 import { TimeoutListener } from '@/common/primary/timeout/Timeout';
 import { stubTimeout } from '../timeout/Timeout.fixture';
 import { describe, it, expect } from 'vitest';

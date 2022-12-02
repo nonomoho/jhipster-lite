@@ -5,7 +5,7 @@ import { ModulesToApply } from '@/module/domain/ModulesToApply';
 import { LandscapeVue } from '@/module/primary/landscape';
 import { flushPromises, mount, VueWrapper } from '@vue/test-utils';
 import sinon, { SinonStub } from 'sinon';
-import { stubAlertBus } from '../../../common/domain/AlertBus.fixture';
+import { stubAlertBus } from '../../../common/domain/alert/AlertBus.fixture';
 import { wrappedElement } from '../../../WrappedElement';
 import { defaultLandscape } from '../../domain/landscape/Landscape.fixture';
 import { ModulesRepositoryStub, projectHistoryWithInit, stubModulesRepository } from '../../domain/Modules.fixture';

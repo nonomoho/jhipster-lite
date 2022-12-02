@@ -1,5 +1,5 @@
 import { defineComponent, inject, onBeforeUnmount, onMounted, ref, Ref } from 'vue';
-import { Unsubscribe } from '@/common/domain/alert/Unsubscribe';
+import { Unsubscribe } from '@/common/domain/bus/Unsubscribe';
 import { ToastType } from '@/common/primary/toast/ToastType';
 import { ToastMessage } from '@/common/primary/toast/ToastMessage';
 import { AlertMessage } from '@/common/domain/alert/AlertMessage';

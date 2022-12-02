@@ -1,5 +1,5 @@
 import { Alerted } from '@/common/domain/alert/Alerted';
-import { Unsubscribe } from '@/common/domain/alert/Unsubscribe';
+import { Unsubscribe } from '@/common/domain/bus/Unsubscribe';
 import { Emitter, Handler } from 'mitt';
 import { AlertMessage } from '@/common/domain/alert/AlertMessage';
 import { AlertType } from '@/common/secondary/alert/AlertType';

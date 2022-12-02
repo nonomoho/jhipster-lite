@@ -13,7 +13,7 @@
           <li v-if="!statistics.isLoading()" class="jhlite-nav--item" data-selector="statistics">
             <div class="jhlite-nav-item">
               <span class="jhlite-icon-text">
-                <span class="jhlite-icon-text--icon">
+                <span class="jhlite-icon-text--icon" data-selector="statistics-applied-modules-count">
                   {{ appliedModulesCount() }}
                 </span>
                 <span class="jhlite-icon-text--text">Applied Modules</span>
